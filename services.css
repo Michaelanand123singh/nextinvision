@@ -1,0 +1,25 @@
+.service-detail {
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.service-detail h2 {
+    color: var(--text-color);
+}
+
+.service-detail ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.service-detail li {
+    margin-bottom: 0.5rem;
+}
+
+.service-detail li:before {
+    content: "✓";
+    color: var(--text-color);
+    margin-right: 0.5rem;
+}
